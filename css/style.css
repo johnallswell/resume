@@ -1,0 +1,205 @@
+/*Changes body gradient */
+body {
+	margin: 25px auto 0px auto;
+	background: linear-gradient(#E1E1E1, white);
+	background-position: top;
+	font-family: "Lucida Grande", Verdana, Halvetica, sans-serif;
+	text-align: center;
+
+}
+/* Makes all like have similar style and effect*/
+a:hover {
+	color: #1F000F;
+	text-decoration: underline;
+}
+a {
+	color: #1F000F;
+	text-decoration: none;
+}
+
+#container {
+	font-weight: normal;
+	margin: 0px auto 0px auto;
+	width: 800px;
+	text-align: center;
+
+}
+
+#top {
+	margin: 0px auto;
+	width: 800px;
+	height: 96px;
+	background-color: #660033;
+}
+
+#title {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 36px;
+	font-weight: normal;
+	font-size:30px;
+	text-align: center;
+	color: #FFFFFF;
+	padding-top: 28px;
+}
+#title span {
+	font-size: 36px;
+	font-family: "Times New Roman", serif;
+	font-weight: bold;
+
+}
+
+
+#nav {
+	width: 455px;
+	padding: 20px 30px 10px;
+	margin: 0px auto;
+	color: #7A1F5C;
+	font-weight: normal;
+	font-size: 11px;
+	text-align: center;
+
+}
+
+#nav li {
+	list-style: none;
+	display: inline;
+	margin-right: 20px;
+}
+
+#nav a {
+	font-size: 12px;
+	font-weight: bold;
+	color: #7A1F5C;
+	text-decoration: none;
+}
+#nav a:hover {
+	color: #7A1F5C;
+	text-decoration: underline;
+}
+
+#intro {
+	width: 700px;
+	padding: 0px 50px 10px 0px;
+	margin: -5px auto 10px auto;
+	color: #990099;
+	font-weight: normal;
+	font-size: 18px;
+	text-align: center;
+
+}
+#intro span {
+	font-weight: bold;
+}
+
+/* Side panel, picture and Hobbies*/
+#side {
+    width: 110px;
+	color: #990099;
+	float: right;
+	font-size: 70%;
+	margin: -5px auto 0px auto;
+	
+	border-left: 1px dotted #1F000F;
+	padding: 0px 0px 0px 20px;
+}
+ img {
+ 	border-radius: 20px;
+ 	width: 115px;
+ 	height: 120px;
+ }
+
+#side p {
+	color: #990099;
+	
+	font-size: 12px;
+	padding: 0px 0px 0px 5px;
+}
+
+#sideText {
+	color: #1F000F;
+	font-size: 11px;
+	font-weight: bold;
+	padding: 0px 15px 0px 10px;
+	text-align: left;
+}
+
+/* Resume Details its content */
+#middle {
+   	margin: -2px auto 0px auto; 
+	background: linear-gradient(white, #F0C2E0);
+}
+
+#middle p {
+
+	font-weight: lighter;
+	font-size: 14px;
+	padding: 0px 0px 0px 10px;
+	font-style: oblique;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+#content {
+	padding: 0px 68px 1px 68px;
+	margin: 0px auto 0px auto;
+	text-align: left;
+
+}
+
+
+
+ #content h2 {
+	color: #1F000F;
+	font-weight: bolder;
+	font-size: 17px;
+	padding: 0px 135px 0px 10px;
+	
+}
+
+#content h3 {
+	color: #1F000F;
+	
+	font-size: 14px;
+	padding: 10px 135px 0px 10px;
+}
+
+#content li {
+	padding: 0px 170px 0px 10px;
+	font-size: 80%;
+	line-height: 20px;
+	margin: 0px 0px 20px 0px;
+	vertical-align: top;
+	color: #666666;
+	list-style-type: none;
+
+}
+
+
+/* Contact panel found in foot of window */
+.contact {
+	margin: 0 auto 0px;
+	width: 800px;
+	height: 46px;
+	background-color: #1F000F;
+	clear: left;
+}
+
+#footer {
+	margin: -50px auto 0px;
+	width: 800px;
+	height: 46px;
+	background-color: #660033;
+	clear: left;
+	padding: 0px 0px 0px 0px;
+
+
+}
+#footer span {
+
+	color: #E0CCD6;
+}
+
+h6 {
+	font-size: 11px;
+	padding: 10px 0 0 0;
+	
+}
