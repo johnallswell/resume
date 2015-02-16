@@ -2,11 +2,14 @@
 body {
 	margin: 25px auto 0px auto;
 	background: linear-gradient(#E1E1E1, white);
-	background-position: top;
 	font-family: "Lucida Grande", Verdana, Halvetica, sans-serif;
-	text-align: center;
+	/*text-align: center;*/
+	
 
 }
+
+
+
 /* Makes all like have similar style and effect*/
 a:hover {
 	color: #1F000F;
@@ -17,12 +20,17 @@ a {
 	text-decoration: none;
 }
 
+/*Contains the entire wesite*/
 #container {
 	font-weight: normal;
-	margin: 0px auto 0px auto;
+	margin: 0px auto 20px auto;
 	width: 800px;
 	text-align: center;
 
+}
+.shadow {
+
+	box-shadow: 5px 5px 5px #888888;
 }
 
 
@@ -125,10 +133,11 @@ a {
 	text-align: left;
 }
 
-/* Resume Details its content */
+/* Gives page its height as content expands */
 #middle {
    	margin: -2px auto 0px auto; 
 	background: linear-gradient(white, #F0C2E0);
+
 }
 
 #middle p {
@@ -164,6 +173,13 @@ a {
 	padding: 10px 135px 0px 10px;
 }
 
+#content h4 {
+	font-weight: bold;
+	font-size: 15px;
+	padding: 0px 0px 0px 10px;
+	font-style: normal;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
 #content li {
 	padding: 0px 170px 0px 10px;
 	font-size: 80%;
@@ -173,6 +189,10 @@ a {
 	color: #666666;
 	list-style-type: none;
 
+}
+
+#content li .bold {
+	font-weight: bold;
 }
 
 
@@ -192,6 +212,7 @@ a {
 	background-color: #660033;
 	clear: left;
 	padding: 0px 0px 0px 0px;
+	text-align: center;
 
 
 }
