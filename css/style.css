@@ -1,71 +1,26 @@
-/*Changes body gradient */
-body {
-	margin: 25px auto 0px auto;
-	background: linear-gradient(#E1E1E1, white);
-	font-family: "Lucida Grande", Verdana, Halvetica, sans-serif;
-	/*text-align: center;*/
+*{
+	border: 2px solid black;
+}
+body{
+	color: white;
+	background-color: red;
+}
+
+header{
 	
-
 }
 
-
-
-/* Makes all like have similar style and effect*/
-a:hover {
-	color: #1F000F;
-	text-decoration: underline;
+h3 {
+	font-family: 'Droid Serif', serif;
 }
-a {
-	color: #1F000F;
-	text-decoration: none;
-}
-
-/*Contains the entire wesite*/
-#container {
-	font-weight: normal;
-	margin: 0px auto 20px auto;
-	width: 800px;
-	text-align: center;
-
-}
-.shadow {
-
-	box-shadow: 5px 5px 5px #888888;
-}
-
-
-/* Holds top part of the site; HEADER */
-#top {
-	margin: 0px auto;
-	width: 800px;
-	height: 96px;
-	background-color: #660033;
-}
-
-#title {
-	font-family: Georgia, "Times New Roman", Times, serif;
-	font-size: 36px;
-	font-weight: normal;
-	font-size:30px;
-	text-align: center;
-	color: #FFFFFF;
-	padding-top: 28px;
-}
-#title span {
-	font-size: 36px;
-	font-family: "Times New Roman", serif;
-	font-weight: bold;
-
-}
-
 
 #nav {
-	width: 455px;
-	padding: 20px 30px 10px;
-	margin: 0px auto;
+	width: 60%;
+	margin: 0 auto -5% 1%;
+	
 	color: #7A1F5C;
 	font-weight: normal;
-	font-size: 11px;
+	font-size: 1em;
 	text-align: center;
 
 }
@@ -77,7 +32,7 @@ a {
 }
 
 #nav a {
-	font-size: 12px;
+	font-size: 1em;
 	font-weight: bold;
 	color: #7A1F5C;
 	text-decoration: none;
@@ -87,58 +42,62 @@ a {
 	text-decoration: underline;
 }
 
-#intro {
-	width: 700px;
-	padding: 0px 50px 10px 0px;
-	margin: -5px auto 10px auto;
+
+#left-info ul li {
+
+	display: inline;
+	list-style-type: none;
+	line-height: 1em;
+	padding-top: 20px;
+	position: relative;
+	
+}
+
+#left-info {
+	float: left;
+	width: 900px;
+	margin: 0 20%;
+}
+
+.intro {
+	width: 80%;
+	height: auto;
+	margin: 5% 0 0 10%;
+
 	color: #990099;
 	font-weight: normal;
-	font-size: 18px;
+	
 	text-align: center;
 
 }
-#intro span {
+.intro p {
+	font-size: 1.2em;
+}
+
+.intro span {
 	font-weight: bold;
 }
 
-/* Side panel, picture and Hobbies*/
-#side {
-    width: 110px;
-	color: #990099;
-	float: right;
-	font-size: 70%;
-	margin: -5px auto 0px auto;
-	
-	border-left: 1px dotted #1F000F;
-	padding: 0px 0px 0px 20px;
-}
- img {
+
+
+.title {
+ 	font-family: 'Droid Serif', serif;
+ 	font-size: 3em;
  	border-radius: 20px;
- 	width: 115px;
- 	height: 120px;
+ 	margin-left: 1px;
+ 	padding: 15px;
+ 	background-color: #660033;
  }
 
-#side ul li {
-	padding: 0;
-	margin: 0;
-}
-
-#sideText {
-	color: #1F000F;
-	font-size: 11px;
-	font-weight: bold;
-	padding: 0px 15px 0px 10px;
+h1{
 	text-align: left;
-}
-
-/* Gives page its height as content expands */
-#middle {
-   	margin: -2px auto 0px auto; 
-	background: linear-gradient(white, #F0C2E0);
+	padding: 0 1em;
+	border: 2px solid yellow;
+	margin: 2em;
 
 }
 
-#middle p {
+section h4 {
 
 	font-weight: lighter;
 	font-size: 14px;
@@ -147,105 +106,120 @@ a {
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
-#content {
-	padding: 0px 68px 1px 68px;
-	margin: 0px auto 0px auto;
-	text-align: left;
+section ul li {
+	font-family: Verdana, serif;
+
+	list-style-type: none;
+	line-height: 2em;
+	padding:  2em 0;
+
 
 }
 
-
-
- #content h2 {
-	color: #1F000F;
+section .bold {
 	font-weight: bolder;
-	font-size: 17px;
-	padding: 0px 135px 0px 10px;
-	
 }
 
-#content h3 {
-	color: #1F000F;
-	
-	font-size: 14px;
-	padding: 10px 135px 0px 10px;
+section a {
+	text-decoration: none;
 }
 
-#content h4 {
-	font-weight: bold;
-	font-size: 15px;
-	padding: 0px 0px 0px 10px;
+section a:hover {
+	text-decoration: underline;
+}
+
+section{
+	color: black;
+	background-color: white;
+	width: 70%;
+	border-radius: 20px;
+
+
+}
+
+.contact {
+	float: right;
+	width: 25%;
+	padding: 5px;
+	font-size: 1em;
+	font-family: Garamond, serif;
+}
+
+.projects {
+text-align: center;
+font-weight: bold;
+}
+
+
+
+#left-info {
+	display: inline-block;
+	width: 40%;
+}
+#container{
+	margin: 0 10%;
+}
+
+#page{
+	width: 90%;
+	margin: 5% auto;
+
+}
+
+img{
+	height:175px;
+	width: 175px;
+	float: left;
+	border-radius: 20px;
+}
+
+h1 {
+  font: 400 45px/0.5 'Courgette', Helvetica, sans-serif;
+}
+h5 {
+
 	font-style: normal;
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
-}
-#content li {
-	padding: 0px 170px 0px 10px;
-	font-size: 80%;
-	line-height: 20px;
-	margin: 0px 0px 20px 0px;
-	vertical-align: top;
-	color: #666666;
-	list-style-type: none;
+	font-size: 1.3em;
 
 }
-
-#content li .bold {
-	font-weight: bold;
+ 
+p {
+  font: 400 14px/1.5 'Average', Times, serif;
 }
 
+/* When page is 1175px wide */
+@media screen and (max-width: 1175px){
 
-/* Contact panel found in foot of window */
-.contact {
-	margin: 0 auto 0px;
-	width: 800px;
-	height: 46px;
-	background-color: #1F000F;
-	clear: left;
-}
-
-#footer {
-	margin: -50px auto 0px;
-	width: 800px;
-	height: 46px;
-	background-color: #660033;
-	clear: left;
-	padding: 0px 0px 0px 0px;
-	text-align: center;
-
-
-}
-#footer span {
-
-	color: #E0CCD6;
-}
-
-h6 {
-	font-size: 11px;
-	padding: 10px 0 0 0;
-	
-}
-
-/*Resize*/
-@media screen and (max-width: 700px){
-	#title {
-		width: auto;
-		color: red;
-
+	body{
+		background-color: purple;
 	}
 
-	#side {
+	#page {
+
 		width: 100%;
 	}
-	#intro {
+
+	section{
 		width: 100%;
-		float: right;
-	}
-	img {
 		float: left;
 	}
+	.tablet-view {
+		width: 100%;
+		display: inline-block;
+	}
+	#container {
+		width: 100%;
+	}
+}
 
-	#nav {
-		text-align: left;
-		width: 200px;
+@media screen and (max-width: 700px){
+
+	body{
+		background-color: purple;
+	}
+
+	section{
+		width: 100%;
 	}
 }
