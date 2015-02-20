@@ -43,22 +43,6 @@ h3 {
 }
 
 
-#left-info ul li {
-
-	display: inline;
-	list-style-type: none;
-	line-height: 1em;
-	padding-top: 20px;
-	position: relative;
-	
-}
-
-#left-info {
-	float: left;
-	width: 900px;
-	margin: 0 20%;
-}
-
 .intro {
 	width: 80%;
 	height: auto;
@@ -188,29 +172,52 @@ p {
   font: 400 14px/1.5 'Average', Times, serif;
 }
 
+
+
+
+
 /* When page is 1175px wide */
-@media screen and (max-width: 1175px){
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 1175px){
 
 	body{
 		background-color: purple;
 	}
 
-	#page {
 
-		width: 100%;
+	.title {
+		font-size: 2em;
 	}
 
 	section{
-		width: 100%;
-		float: left;
+		width: 70%;
+		
+		margin: 0;
 	}
 	.tablet-view {
-		width: 100%;
+		width: 70%;
 		display: inline-block;
+		float: left;
 	}
 	#container {
 		width: 100%;
+		margin: 0 5%;
 	}
+
+	#nav {
+		display: none;
+	}
+
+
+}
+
+
+@media screen and (max-width: 1175px){
+
+.title {
+		font-size: 2em;
+	}
+
 }
 
 @media screen and (max-width: 700px){
