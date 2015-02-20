@@ -1,9 +1,7 @@
-*{
-	border: 2px solid black;
-}
+
 body{
 	color: white;
-	background-color: red;
+	background-color: white;
 }
 
 header{
@@ -78,8 +76,11 @@ h1{
 	padding: 0 1em;
 	border: 2px solid yellow;
 	margin: 2em;
+	font: 400 45px/0.5 'Courgette', Helvetica, sans-serif;
 
 }
+
+
 
 section h4 {
 
@@ -129,10 +130,7 @@ section{
 	font-family: Garamond, serif;
 }
 
-.projects {
-text-align: center;
-font-weight: bold;
-}
+
 
 
 
@@ -158,9 +156,7 @@ img{
 	border-radius: 20px;
 }
 
-h1 {
-  font: 400 45px/0.5 'Courgette', Helvetica, sans-serif;
-}
+
 h5 {
 
 	font-style: normal;
@@ -183,13 +179,26 @@ p {
 @media screen and (min-width:700px) and (max-width: 1175px){
 
 	body{
-		background-color: purple;
+		background-color: white;
+		overflow-x: hidden;
+		max-width: 100%;
 	}
 	header {
-		width: 100%;
+		width: 95%;
 
 		margin: 0 5%;
 	}
+
+
+
+
+	#page {
+
+		width: 100%;
+		margin: 0 auto;
+		padding: 0;
+	}
+
 	#top {
 		width: 100%;
 		margin: 0 5%;
@@ -207,7 +216,7 @@ p {
 	img {
 		height: 50%;
 		width: 70%;
-		margin: 0;
+		margin: 0 15%;
 		position: relative;
 	}
 
@@ -219,7 +228,7 @@ p {
 	}
 	#my-name {
 		width: 70%;
-		margin: 0;
+		margin: 0 auto;
 
 	}
 
@@ -244,15 +253,15 @@ p {
 	}
 
 	section{
-		width: 100%;
+		width: 95%;
 		
 		margin: 0;
 	}
 
 
-	.tablet-view {
+	.contact-view {
 		
-		width: 100%;
+		width: 95%;
 		display: inline-block;
 		float: left;
 		margin: 0;
@@ -264,7 +273,7 @@ p {
 
 
 	#container {
-		width: 100%;
+		width: 95%;
 		margin: 0 5%;
 	}
 
@@ -278,19 +287,66 @@ p {
 }
 
 
-/* When page is 700px wide 
+/* When page is 700px wide */
 
 
 @media screen and (min-width:200px) and (max-width: 700px){
 
 	body{
-		background-color: green;
+		background-color: white;
+
+		overflow-x: hidden;
+		max-width: 100%;
 	}
 	header {
 		width: 100%;
 
 		margin: 0 5%;
 	}
+
+	h1{
+	text-align: left;
+	padding: 0 1em;
+	
+	margin: 2em 1em 1em 0;
+	font-family: 'Courgette', Helvetica, sans-serif;
+	font-size: 2em;
+
+	}
+
+	section h4 {
+
+	font-weight: lighter;
+	font-size: 13px;
+	padding: 0px 0px 0px 10px;
+	font-style: oblique;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	}
+
+	section ul li {
+		font-family: Verdana, serif;
+		font-size: 12px;
+		list-style-type: none;
+		line-height: 1em;
+		padding:  1em 0;
+
+
+	}
+
+	h5 {
+
+	font-style: normal;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 0.8em;
+	}
+	 
+	p {
+	  font-family: 'Average', Times, serif;
+	  font-size: 14px;
+	  font-weight: bold;
+	}
+
+
 	#top {
 		width: 100%;
 		margin: 0 5%;
@@ -340,21 +396,21 @@ p {
 
 	}
 	.intro p {
-		font-size: 1.2em;
+		font-size: 1em;
 	}
 
 	.intro span {
 		font-weight: bold;
 	}
 
-	section{
+		section{
 		width: 100%;
 		
 		margin: 0;
 	}
 
 
-	.tablet-view {
+	.contact-view {
 		
 		width: 100%;
 		display: inline-block;
@@ -369,7 +425,7 @@ p {
 
 	#container {
 		width: 100%;
-		margin: 0 5%;
+		margin: 0;
 	}
 
 
@@ -378,17 +434,15 @@ p {
 		display: none;
 	}
 
+}	
 
-}
-
-*/
 /*@media only screen 
 and (min-device-width : 320px) 
 and (max-device-width : 480px){}
 @media screen and (max-width: 700px){
 
 	body{
-		background-color: purple;
+		background-color: white;
 	}
 
 	section{
