@@ -136,10 +136,7 @@ font-weight: bold;
 
 
 
-#left-info {
-	display: inline-block;
-	width: 40%;
-}
+
 #container{
 	margin: 0 10%;
 }
@@ -148,6 +145,10 @@ font-weight: bold;
 	width: 90%;
 	margin: 5% auto;
 
+}
+
+.pic1 {
+	display: none;
 }
 
 img{
@@ -178,31 +179,96 @@ p {
 
 /* When page is 1175px wide */
 
-@media only screen and (min-device-width : 320px) and (max-device-width : 1175px){
+
+@media screen and (min-width:700px) and (max-width: 1175px){
 
 	body{
 		background-color: purple;
 	}
+	header {
+		width: 100%;
 
+		margin: 0 5%;
+	}
+	#top {
+		width: 100%;
+		margin: 0 5%;
+
+	}
+
+	.pic {
+		
+		display: none;
+	}
+	.pic1 {
+		display: inline-block;
+		width: 100%;
+	}
+	img {
+		height: 50%;
+		width: 70%;
+		margin: 0;
+		position: relative;
+	}
 
 	.title {
-		font-size: 2em;
+		font-size: auto;
+		display: inline-block;
+		text-align: center;
+		
+	}
+	#my-name {
+		width: 70%;
+		margin: 0;
+
+	}
+
+
+	.intro {
+	width: 100%;
+	height: auto;
+	margin: 5% 5% 0 0;
+	text-align: center;
+	color: #990099;
+	font-weight: normal;
+	font-style: oblique;
+	text-align: center;
+
+	}
+	.intro p {
+		font-size: 1.2em;
+	}
+
+	.intro span {
+		font-weight: bold;
 	}
 
 	section{
-		width: 70%;
+		width: 100%;
 		
 		margin: 0;
 	}
+
+
 	.tablet-view {
-		width: 70%;
+		
+		width: 100%;
 		display: inline-block;
 		float: left;
+		margin: 0;
 	}
+
+	.top-exp {
+		margin-top: 25%;
+	}
+
+
 	#container {
 		width: 100%;
 		margin: 0 5%;
 	}
+
+
 
 	#nav {
 		display: none;
@@ -212,14 +278,113 @@ p {
 }
 
 
-@media screen and (max-width: 1175px){
+/* When page is 700px wide 
 
-.title {
-		font-size: 2em;
+
+@media screen and (min-width:200px) and (max-width: 700px){
+
+	body{
+		background-color: green;
 	}
+	header {
+		width: 100%;
+
+		margin: 0 5%;
+	}
+	#top {
+		width: 100%;
+		margin: 0 5%;
+
+	}
+
+	.pic {
+		
+		display: none;
+	}
+	.pic1 {
+		display: inline-block;
+		width: 70%;
+	}
+	img {
+		height: 50%;
+		width: 70%;
+		margin: 0 15%;
+		position: relative;
+	}
+
+	.title {
+		font-size: 1em;
+		display: inline-block;
+		text-align: center;
+		margin: 0 5%;
+		padding: 1%;
+		border-radius: 2px;
+		
+	}
+	#my-name {
+		width: 70%;
+		margin: 0;
+
+	}
+
+
+	.intro {
+	width: 100%;
+	height: auto;
+	margin: 5% 5% 0 0;
+	text-align: center;
+	color: #990099;
+	font-weight: normal;
+	font-style: oblique;
+	text-align: center;
+
+	}
+	.intro p {
+		font-size: 1.2em;
+	}
+
+	.intro span {
+		font-weight: bold;
+	}
+
+	section{
+		width: 100%;
+		
+		margin: 0;
+	}
+
+
+	.tablet-view {
+		
+		width: 100%;
+		display: inline-block;
+		float: left;
+		margin: 0;
+	}
+
+	.top-exp {
+		margin-top: 25%;
+	}
+
+
+	#container {
+		width: 100%;
+		margin: 0 5%;
+	}
+
+
+
+	#nav {
+		display: none;
+	}
+
 
 }
 
+*/
+/*@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px){}
 @media screen and (max-width: 700px){
 
 	body{
@@ -229,4 +394,4 @@ p {
 	section{
 		width: 100%;
 	}
-}
+}*/
