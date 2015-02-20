@@ -118,11 +118,9 @@ a {
  	height: 120px;
  }
 
-#side p {
-	color: #990099;
-	
-	font-size: 12px;
-	padding: 0px 0px 0px 5px;
+#side ul li {
+	padding: 0;
+	margin: 0;
 }
 
 #sideText {
@@ -225,4 +223,29 @@ h6 {
 	font-size: 11px;
 	padding: 10px 0 0 0;
 	
+}
+
+/*Resize*/
+@media screen and (max-width: 700px){
+	#title {
+		width: auto;
+		color: red;
+
+	}
+
+	#side {
+		width: 100%;
+	}
+	#intro {
+		width: 100%;
+		float: right;
+	}
+	img {
+		float: left;
+	}
+
+	#nav {
+		text-align: left;
+		width: 200px;
+	}
 }
