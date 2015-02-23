@@ -12,6 +12,7 @@ h3 {
 	font-family: 'Droid Serif', serif;
 }
 
+/* Navigation bar */
 #nav {
 	width: 60%;
 	margin: 0 auto -5% 1%;
@@ -40,7 +41,7 @@ h3 {
 	text-decoration: underline;
 }
 
-
+/* Quotation Statement on top of window */
 .intro {
 	width: 80%;
 	height: auto;
@@ -61,7 +62,7 @@ h3 {
 }
 
 
-
+/* JOHN ALLSWELL SANNI-THOMAS banner on top */
 .title {
  	font-family: 'Droid Serif', serif;
  	font-size: 3em;
@@ -81,6 +82,7 @@ h1{
 }
 
 
+/* Middle and content of page */
 
 section h4 {
 
@@ -121,7 +123,7 @@ section{
 
 
 }
-
+/* Separate Section for contact and Projects */
 .contact {
 	float: right;
 	width: 25%;
@@ -134,17 +136,20 @@ section{
 
 
 
-
+/* Holder for section which contains content */
 #container{
 	margin: 0 10%;
 }
 
+
+/* Wraps around the web page should implement wrapper syntax */
 #page{
 	width: 90%;
 	margin: 5% auto;
 
 }
 
+/* Control for first image "dp.jpg"*/
 .pic1 {
 	display: none;
 }
@@ -156,7 +161,7 @@ img{
 	border-radius: 20px;
 }
 
-
+/* For 2nd header */
 h5 {
 
 	font-style: normal;
@@ -333,6 +338,7 @@ p {
 
 	}
 
+	/* For 2nd header */
 	h5 {
 
 	font-style: normal;
