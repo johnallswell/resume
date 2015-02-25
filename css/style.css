@@ -130,37 +130,72 @@ h3 {
 }
 
 img{
+	margin: 1em;
 	height:175px;
 	width: 175px;
 	float: left;
-	border-radius: 20px;
-	border: 2px dotted #990099;
+	border-radius: .25em;
+	border: 5px solid #660066;
 }	
 
 
 
 
-/* Quotation Statement on top of window */
+/* About me Statement on top of window */
+
+
 .intro {
-	width: 80%;
-	height: auto;
-	margin: 1% 0 5% 10%;
-	border: 2px solid #990099;
+	width: 40em;
+	margin: 1em auto 3em auto;
+	border: .25em solid #660066;
 	color: #990099;
 	font-weight: normal;
 	border-radius: 5px;
 	text-align: center;
-
-}
-.intro p {
 	font-size: 1.2em;
+	padding: 1em;
+	background-color: #E0CCE0;
+}
+
+/*
+.intro p {
+	
 }
 
 .intro span {
 	font-weight: bold;
+	
+}
+*/
+
+/*
+.intro {
+  background: #EDA;
+  border: .25em solid #763;
+  font-family: Georgia;
+  font-size: 1.2em;
+  font-weight: normal;
+  margin: 1em auto;
+  padding: 1em;
+  text-align: center;
+  text-indent: 4em;
+  width: 35em;
 }
 
 
+
+.intro > span {
+  background: #FEC;
+  border-radius: .5em;
+  box-shadow: 0 .1em 0 #FEC,
+    .2em .3em 0 #431;
+  color: transparent;
+  letter-spacing: .4em;
+  margin: 0 -8em;
+  text-shadow: .2em 0 0 #542;
+}
+
+*/
 
 
 h1{
@@ -174,6 +209,14 @@ h1{
 
 
 /* Middle and content of page */
+
+#paper {
+	margin: auto 20em auto 0;
+	box-shadow: 0 .1em 0 #FEC, .2em .3em 0 #431;
+	background-color: #990099;
+	width: 72%;
+	padding: 2em;
+}
 
 /*.content-bck {
 
@@ -237,9 +280,8 @@ section{
 
 /* Holder for section which contains content */
 #container{
-	margin: 0 10%;
-	
   	color: transparent;
+  	margin: 0 10%;
 }
 
 
