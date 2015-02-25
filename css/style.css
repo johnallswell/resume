@@ -14,9 +14,11 @@ body{
 }
 
 .button {
+	width: 95%;
 	border: 2px solid blue;
 	border-radius: 5px;
 	padding: 0.5em;
+	text-align: center;
 }
 
 header{
@@ -45,27 +47,28 @@ header{
  }
 
  #my-name {
- 	width: 30%;
+ 	width: auto;
  	padding: 2% 0;
+
 
  }
 
 /* Navigation bar */
 #nav {
-	width: 60%;
-	margin: -4em 5% 0 0;
-	float: right;
+	width: auto;
+	margin: -4em 5% 0 auto;
+	
 	color: white;
 	font-weight: normal;
-	font-size: 1.2em;
-	text-align: center;
+	font-size: 1.1em;
+	text-align: right;
 
 }
 
 #nav li {
 	list-style: none;
 	display: inline;
-	margin-right: 5%;
+	margin-right: 2%;
 }
 
 #nav a {
@@ -93,12 +96,6 @@ h3 {
 	font-family: 'Droid Serif', serif;
 }
 
-#top {
-		width: 100%;
-		height: auto;
-		margin: 0;
-
-}
 
 /* Control for first image "dp.jpg"*/
 .pic1 {
@@ -148,7 +145,7 @@ img{
 h1{
 	text-align: left;
 	padding: 0 1em;
-	border: 2px solid yellow;
+	
 	
 	font: 400 30px/0.5 'Courgette', Helvetica, sans-serif;
 
@@ -156,6 +153,13 @@ h1{
 
 
 /* Middle and content of page */
+
+/*.content-bck {
+
+	background-color: #DAE6FF;
+	
+	border-radius: 2px;
+}                          /* Background around inner texts */
 
 section h4 {
 	text-align: left;
@@ -172,6 +176,7 @@ section ul li {
 	list-style-type: disc;
 	line-height: 1em;
 	padding:  1em 0;
+
 
 
 }
