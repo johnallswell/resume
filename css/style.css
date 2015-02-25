@@ -20,14 +20,19 @@ body{
 } 
 
 .button {
-	width: 95%;
+	
+	background-color: #660033;
 	border: 4px solid white;
 	border-radius: 5px;
+	box-shadow: 10px 10px 5px #888888;
+	color: white;
+	font-family: 'Quicksand', sans-serif;
 	padding: 0.5em;
 	text-align: center;
-	background-color: #660033;
-	color: white;
-    box-shadow: 10px 10px 5px #888888;
+	width: 95%;
+	
+    
+
 
 }
 .button a {
@@ -63,7 +68,8 @@ header{
 .title {
 	
  	font-family: 'Droid Serif', serif;
- 	font-size: 1.6em;
+ 	font-size: 2em;
+ 	width: 74em;
  	
  }
 
@@ -77,7 +83,7 @@ header{
 /* Navigation bar */
 #nav {
 	width: auto;
-	margin: -4em 5% 0 auto;
+	margin: -4em 0 0 auto;
 	font-family: 'Pontano Sans', sans-serif;
 	color: white;
 	font-weight: normal;
@@ -109,7 +115,7 @@ header{
 /* Wraps around the web page should implement wrapper syntax */
 #page{
 	width: auto;
-	margin: 5% auto;
+	margin: 5% auto 0 auto;
 
 }
 
@@ -200,12 +206,10 @@ img{
 
 
 h1{
+	font-family: 'Droid Serif', serif;
+	font-size: 1.5em;
 	text-align: left;
-	padding: 0 1em;
 	
-	
-	font: 900 30px/0.5 'Courgette', Helvetica, sans-serif;
-
 }
 
 
@@ -213,7 +217,7 @@ h1{
 
 #paper {
 	
-	box-shadow: 0 .1em 0 #FEC, .2em .3em 0 #431;
+	box-shadow: 0 .1em 0 #FEC, .3em .4em 0 #888888;
 	background-color: #E0CCE0;
 	margin: auto 20em auto 0;
 	padding: 2.5em 2.5em 2.5em 4em;
@@ -229,17 +233,18 @@ h1{
 }                          /* Background around inner texts */
 
 section h4 {
-	text-align: left;
-	font-weight: lighter;
-	font-size: 14px;
-	padding: 0px 0px 0px 10px;
-	font-style: oblique;
+	
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 1.2em;
+	font-style: oblique;
+	font-weight: lighter;
+	padding: 0px 0px 0px 10px;
+	text-align: left;
 }
 
 section ul li {
 	font-family: Verdana, serif;
-	margin: 0 0 0 -2em;
+	margin: 0 0 0 .25em;
 	list-style-type: disc;
 	line-height: 1em;
 	padding:  1em 0;
@@ -254,6 +259,7 @@ section .bold {
 
 section a {
 	text-decoration: none;
+	color: #222;
 }
 
 section a:hover {
@@ -298,17 +304,21 @@ h5 {
 	font-style: normal;
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	font-size: 1.3em;
+	font-weight: bold;
 
 }
  
-p {
-  font: 400 14px/1.5 'Average', Times, serif;
-}
+
 
 #footer {
+		
+	background-color: #660033;
+	clear: both;
+	font-family: 'Pontano Sans', sans-serif;
+	padding: 1em;
+	text-align: center;
+	font-weight: bold;
 	width: 100%;
-	height: 3em;
-	background-color: blue;
 }
 
 
@@ -459,8 +469,8 @@ p {
 
 	section h4 {
 
-	font-weight: lighter;
-	font-size: 13px;
+	font-weight: bold;
+	font-size: .7em;
 	padding: 0px 0px 0px 10px;
 	font-style: oblique;
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
