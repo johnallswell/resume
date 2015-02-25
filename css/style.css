@@ -78,11 +78,12 @@ header{
 #nav {
 	width: auto;
 	margin: -4em 5% 0 auto;
-	
+	font-family: 'Pontano Sans', sans-serif;
 	color: white;
 	font-weight: normal;
-	font-size: 1.1em;
+	font-size: 1em;
 	text-align: right;
+	text-transform: uppercase;
 
 }
 
@@ -94,7 +95,7 @@ header{
 
 #nav a {
 	font-size: 1em;
-	font-weight: bold;
+	
 	color: white;
 	text-decoration: none;
 }
