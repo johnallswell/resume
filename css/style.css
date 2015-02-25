@@ -5,13 +5,19 @@
 
 
 body{
-	color: white;
-	background-color: white;
+	
 	height: 100%;
 	width: auto;	
 	margin: 0 auto;
 	padding: 0;
 }
+
+#grad {
+  background: -webkit-linear-gradient(180deg, #FFDBFF, #C2C2FF); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(180deg, #FFDBFF, #C2C2FF); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(180deg, #FFDBFF, #C2C2FF); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(180deg, #FFDBFF, #C2C2FF); /* Standard syntax */
+} 
 
 .button {
 	width: 95%;
@@ -195,7 +201,7 @@ section a:hover {
 
 section{
 	color: black;
-	background-color: white;
+	
 	width: 70%;
 	border-radius: 20px;
 
@@ -253,7 +259,7 @@ p {
 @media screen and (min-width:700px) and (max-width: 1175px){
 
 	body{
-		background-color: white;
+		
 		overflow-x: hidden;
 		max-width: 100%;
 	}
@@ -368,7 +374,7 @@ p {
 @media screen and (min-width:200px) and (max-width: 700px){
 
 	body{
-		background-color: white;
+		
 
 		overflow-x: hidden;
 		max-width: 100%;
