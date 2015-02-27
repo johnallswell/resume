@@ -11,6 +11,10 @@ body{
 	margin: 0 auto;
 	padding: 0;
 }
+
+.prt-address {
+	display: none;
+}
 /* Gradient of entire page  left to right using degrees */
 #grad {
   background: -webkit-linear-gradient(180deg, #FFDBFF, #C2C2FF); /* For Safari 5.1 to 6.0 */
@@ -163,6 +167,7 @@ img{
 	font-size: 1.3em;
 	padding: 1em;
 	background-color: #E0CCE0;
+	text-shadow: .03em .03em #4d4d4d;
 }
 
 
@@ -345,23 +350,18 @@ h5 {
 
 
 	.intro {
-	width: 100%;
-	height: auto;
-	margin: 5% 5% 0 0;
-	text-align: center;
+	width: 45em;
+	margin: 1em auto 3em auto;
+	border: .25em solid #660066;
 	color: #990099;
 	font-weight: normal;
-	font-style: oblique;
+	border-radius: 5px;
 	text-align: center;
+	font-size: 1.3em;
+	padding: 1em;
+	background-color: #E0CCE0;
+	}
 
-	}
-	.intro p {
-		font-size: 1.2em;
-	}
-
-	.intro span {
-		font-weight: bold;
-	}
 
 	section{
 		width: 95%;
@@ -403,6 +403,13 @@ h5 {
 
 @media screen and (min-width:200px) and (max-width: 700px){
 
+	/*
+	*/
+*{
+	border: 2px solid blue;
+	}
+
+
 	body{
 		
 
@@ -412,34 +419,28 @@ h5 {
 	header {
 		width: 100%;
 
-		margin: 0 5%;
+		margin: 0 auto;
 	}
 
 	h1{
-	text-align: left;
+	text-align: center;
 	padding: 0 1em;
 	
 	margin: 2em 1em 1em 0;
-	font-family: 'Courgette', Helvetica, sans-serif;
+	
 	font-size: 2em;
 
 	}
 
-	section h4 {
-
-	font-weight: bold;
-	font-size: .7em;
-	padding: 0px 0px 0px 10px;
-	font-style: oblique;
-	font-family: "Trebuchet MS", Helvetica, sans-serif;
-	}
-
+	
 	section ul li {
-		font-family: Verdana, serif;
-		font-size: 12px;
-		list-style-type: none;
-		line-height: 1em;
-		padding:  1em 0;
+	font-family: Verdana, serif;
+	margin: 0 0 0 .25em;
+	list-style-type: disc;
+	line-height: 1em;
+	padding:  1em 0;
+	width: 100%;
+
 
 
 	}
@@ -452,6 +453,11 @@ h5 {
 	font-size: 0.8em;
 	}
 	 
+	h4 {
+		font-size: 1em;
+		text-align: 
+	}
+
 	p {
 	  font-family: 'Average', Times, serif;
 	  font-size: 14px;
@@ -480,44 +486,47 @@ h5 {
 		position: relative;
 	}
 
-	.title {
-		font-size: 1em;
-		display: inline-block;
-		text-align: center;
-		margin: 0 5%;
-		padding: 1%;
-		border-radius: 2px;
-		
+	#banner {
+		width: 100%;
+		margin: auto;
+		padding: 0;
+		color: white;
+
+
 	}
+		/* JOHN ALLSWELL SANNI-THOMAS banner on top */
+	.title {
+		
+	 	font-family: 'Droid Serif', serif;
+	 	font-size: 1.5em;
+	 	letter-spacing: 0;
+	 	width: 100%;
+ 	
+ 	}
+
 	#my-name {
-		width: 70%;
-		margin: 0;
+		width: 100%;
+		margin: auto;
 
 	}
 
 
 	.intro {
-	width: 100%;
-	height: auto;
-	margin: 5% 5% 0 0;
-	text-align: center;
+	width: 45em;
+	margin: 1em auto 3em auto;
+	border: .25em solid #660066;
 	color: #990099;
 	font-weight: normal;
-	font-style: oblique;
+	border-radius: 5px;
 	text-align: center;
-
-	}
-	.intro p {
-		font-size: 1em;
-	}
-
-	.intro span {
-		font-weight: bold;
+	font-size: 1.3em;
+	padding: 1em;
+	background-color: #E0CCE0;
 	}
 
 		section{
 		width: 100%;
-		
+		padding: 0;
 		margin: 0;
 	}
 
@@ -527,7 +536,7 @@ h5 {
 		width: 100%;
 		display: inline-block;
 		float: left;
-		margin: 0;
+		margin: 0 auto;
 	}
 
 	.top-exp {

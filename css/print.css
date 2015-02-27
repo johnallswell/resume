@@ -1,0 +1,68 @@
+/*Reset Style*/
+*{
+	border: 2px solid #222;
+}
+body {
+	margin:0; 
+	padding:0; 
+	line-height: 1.4em; 
+	word-spacing:1px; 
+	letter-spacing:0.2px; 
+	font: 13px Arial, Helvetica,"Lucida Grande", serif; 
+	color: #222;
+
+}
+
+/*Remove Element*/
+#banner, .pic, .pic1, #intro, {
+	display: none;
+}
+#paper {
+	box-shadow: none;
+	background-color: none;
+	margin: auto;
+	padding: 1.5em;
+	width: 100%;
+	
+
+}
+#banner {
+	margin-bottom: 2em;
+	
+}
+.prt-address {
+	font: 1.5em Arial, Helvetica,"Lucida Grande", serif; 
+	color: #222;
+	display: inline;
+	margin: 1em auto;
+
+}
+#grad {
+	color: transparent;
+}
+.pic .pic1 {
+	border: none;
+}
+ #nav {
+ 	display: none;
+ }
+.intro {
+	border: none;
+margin: 1em auto 0 auto;
+	
+}
+
+.pic {
+
+	display: none;
+}
+.contact {
+	display: none;
+}
+#container {
+	margin: 0 1em;
+}
+/*Break Page*/
+#navExperience {
+	page-break-before: always;
+}
