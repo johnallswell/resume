@@ -2,12 +2,7 @@
 /* When page is 700px wide */
 @media screen and (min-width:200px) and (max-width: 700px){
 
-	/*
-	*/
-*{
-	border: 2px solid blue;
-	}
-
+	
 
 	body{
 	
@@ -170,7 +165,7 @@ img{
 	font-size: 1.3em;
 	padding: 1em;
 	background-color: #E0CCE0;
-	text-shadow: .03em .03em #4d4d4d;
+	
 }
 
 
