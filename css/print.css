@@ -28,6 +28,9 @@ body {
 	margin: 1em auto;
 
 }
+.prt-address p {
+
+}
 #grad {
 	color: transparent;
 }
@@ -50,6 +53,15 @@ body {
 	padding: 1.5em;
 
 	
+}
+
+
+
+section ul li {
+	font-size: 1.3em;
+
+
+
 }
 
 .pic {
