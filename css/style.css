@@ -139,6 +139,7 @@ h3 {
 	width: 100%;
 	height: auto;
 	margin: 0;
+	background-image: url(img/dp.jpg);
 }
 
 img{
@@ -329,6 +330,7 @@ h5 {
 	.pic1 {
 		display: inline-block;
 		width: 100%;
+		background-image: url(img/dp1.jpg);
 	}
 	img {
 		height: 50%;
